@@ -9,7 +9,7 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-// Part 1 answer 👇🏻 ...
+// Part 1 answer 👇🏻 ..
 
 const fullName= "Ahmad Musllam";
 const yearOfBirth= "1999";
