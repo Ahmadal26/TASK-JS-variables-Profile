@@ -32,8 +32,8 @@ const image= "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgk
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
-const fullNameString=`${fullName}`;
-const yearOfBirthString= "I am "+`${2023-yearOfBirth}`;
+const fullNameString=`My name is ${fullName}`;
+const yearOfBirthString= `I am ${2023-yearOfBirth}`;
 const hobbyString = "My hobby is "+`${hobby}`
 
 
@@ -64,11 +64,11 @@ function decrementBy1() {
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
-  stars+2;
+  stars=stars+2;
 
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
-  stars-2;
+  stars=stars-2;
 
 }
